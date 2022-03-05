@@ -1,0 +1,65 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 20px 0 10px 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer {
+  margin: 20px 0 0 40px;
+}
+
+.footer-heading {
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-size: 13px;
+}
+
+.footer-body {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+main {
+  margin-left: 50px;
+}
+
+.box-title {
+  width: 190px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.box-body {
+  width: 400px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.box-link {
+  width: 160px;
+}
+
+.link:nth-child(1),
+.link:nth-child(2) {
+  margin-right: 5px;
+}

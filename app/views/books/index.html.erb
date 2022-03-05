@@ -1,0 +1,28 @@
+<header>
+  <h2 class="heading">Books</h2>
+</header>
+
+<main>
+  <div class="box">
+    <h6 class="box-title">Title</h6>
+    <h6 class="box-body">Body</h6>
+  <div class="box-link">
+    <span class="link"><%=  %>Show</span>
+    <span class="link"><%=  %>Edit</span>
+    <span class="link"><%=  %>Destroy</span>
+  </div>
+  </div>
+</main>
+
+<footer>
+  <h3 class="footer-heading">New book</h3>
+  <%= form_with model: @book, url: books_path, method: :post do |f| %>
+
+    <p class="footer-title">Title</p>
+    <%= f.text_field :title %>
+
+    <p class="footer-body">Body</p>
+    <%= f.text_area :body %>
+    <p class="btn"><%= f.submit "Create Book" %></p>
+  <% end %>
+</footer>
