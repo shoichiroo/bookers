@@ -1,2 +1,15 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div class="show-box1">
+  <h5 class="show-title">Title:</h5>
+  <span class="show-code"><%= @book.title %></span>
+</div>
+
+<div class="show-box2">
+  <h5 class="show-body">Body:</h5>
+  <span class="show-code"><%= @book.body %></span>
+</div>
+
+<div class="box3">
+  <p class="show-edit"><%= link_to "Edit", edit_book_path(@book.id) %></p>
+  <p class="show-one">|</p>
+  <p class="show-back"><%= link_to "Back", books_path %></p>
+</div>
