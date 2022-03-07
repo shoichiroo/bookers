@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flash {
+  margin: 30px 0 0 60px;
+}
+
+.flash-text {
+  font-size: 12px;
+  color: green;
+}

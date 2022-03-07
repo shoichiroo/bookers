@@ -8,7 +8,7 @@
 }
 
 header {
-  margin: 20px 0 10px 20px;
+  margin: 20px 0 0 20px;
 }
 
 .box {
@@ -85,4 +85,57 @@ footer {
 
 .edit-btn {
   margin: 5px 0;
+}
+
+.error-box {
+  width: 450px;
+  height: 130px;
+  border: 3px solid red;
+  background-color: #f0f0f0;
+}
+
+.error-count {
+  height: 30px;
+  width: 447px;
+  background-color: red;
+  color: white;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.error-text {
+  font-size: 12px;
+}
+
+.error-message {
+  margin: 30px 0 0 70px;
+}
+
+.table-title {
+  width: 190px;
+}
+
+.table-body {
+  width: 400px;
+}
+
+.table-colspan {
+  width: 140px;
+}
+
+table {
+  margin-left: 30px;
+}
+
+td {
+  padding: 0 5px 7px 5px;
+}
+
+.linkto {
+  color: black;
+}
+
+.linkto:hover {
+  background-color: black;
+  color: white;
 }
